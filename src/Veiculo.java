@@ -1,6 +1,6 @@
 public abstract class Veiculo {
-protected String placa;
-protected String marca;
+    protected String placa;
+    protected String marca;
 
     public Veiculo(String placa, String marca) {
         this.placa = placa;
@@ -9,9 +9,22 @@ protected String marca;
 
     @Override
     public String toString() {
-        return "Veiculo{" +
-                "placa='" + placa + '\'' +
-                ", marca='" + marca + '\'' +
-                '}';
+        return "placa=" + placa + "\n marca=" + marca;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 }
