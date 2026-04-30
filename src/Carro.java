@@ -8,7 +8,7 @@ public class Carro extends Veiculo {
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + "\n Numero de portas:" +numPortas;
     }
 
     public int getNumPortas(){

@@ -1,11 +1,18 @@
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<Veiculo>lista=new ArrayList<>();
+        ArrayList<Veiculo> lista = new ArrayList<>();
+        lista.add(new Carro("A1", "audi", 4));
+        lista.add(new Carro("B1", "bmw", 2));
+        lista.add(new Moto("Y2", "yamaha", 1200));
 
-        Carro carro = new Carro();
+        for (Veiculo veiculo : lista) {
+            System.out.println(veiculo);
+            System.out.println();
+        }
 
     }
 }

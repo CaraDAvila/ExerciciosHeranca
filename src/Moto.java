@@ -9,6 +9,10 @@ public class Moto extends Veiculo {
 
     @Override
     public String toString() {
-        return "Moto" + "cilindradas=" + cilindradas;
+        return "cilindradas= " + cilindradas;
+    }
+
+    public int getNumCilindradas(){
+        return cilindradas;
     }
 }

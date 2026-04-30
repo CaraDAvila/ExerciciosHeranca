@@ -9,7 +9,7 @@ public abstract class Veiculo {
 
     @Override
     public String toString() {
-        return "placa=" + placa + "\n marca=" + marca;
+        return "placa= " + placa + "\n marca= " + marca;
     }
 
     public String getPlaca() {
