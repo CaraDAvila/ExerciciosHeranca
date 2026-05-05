@@ -28,6 +28,12 @@ public class Cilindro {
                 ", altura=" + altura +
                 ", ponto=" + ponto +
                 '}';
+
+
+        //String x = "";
+        //        x += "Raio: " + raio + "\n";
+        //        x += ponto.toString();
+        //        return x;
     }
 
     public double getRaio() {
