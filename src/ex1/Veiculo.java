@@ -1,3 +1,5 @@
+package ex1;
+
 public abstract class Veiculo {
     protected String placa;
     protected String marca;

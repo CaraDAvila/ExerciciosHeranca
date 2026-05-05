@@ -1,3 +1,5 @@
+package ex1;
+
 public class Carro extends Veiculo {
     private int numPortas;
 
